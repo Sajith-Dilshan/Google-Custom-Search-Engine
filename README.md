@@ -4,7 +4,7 @@
 Simple Google Custom Search Engine
 
 
-##[Go to live]()
+##[Go to live](https://sajith-dilshan.github.io/Google-Custom-Search-Engine/)
 
 
 
