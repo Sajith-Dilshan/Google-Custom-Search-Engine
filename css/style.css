@@ -175,6 +175,12 @@ main #offer-wrapper a{
     padding: 0 2px;
 }
 
+.copyright{
+    padding: 20px;
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
+
 
 
  /* == Footer */
