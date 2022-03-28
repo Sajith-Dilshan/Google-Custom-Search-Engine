@@ -1,0 +1,10 @@
+{
+  "name": "google-custom-search-engine",
+  "version": "1.0.0",
+  "description": "Simple Google Custom Search Engine",
+  "author": "sajith dilshan <sajithd784@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "reset.css": "^2.0.2"
+  }
+}
