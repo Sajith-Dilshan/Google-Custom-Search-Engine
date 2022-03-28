@@ -1,0 +1,84 @@
+/* Copyright © 2022 Sajith-dilshan. All Rights Reserved.
+ * This project is licensed under the MIT License.
+ * Please find the license file in the root directory.
+ *
+ * style.css
+ *
+ * Author: sajith dilshan <sajithd784@gmail.com>
+ */
+
+ /* == Base Styles | Utitlies */
+
+ :root{
+    font-size: 14px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.small{
+    font-size: 13px;
+}
+
+/* == Site-Wide | Layout */
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* == Header */
+
+header{
+   display: flex;
+   gap: 15px;
+   justify-content: flex-end; 
+   align-items: center;
+   padding: 6px;
+}
+
+header a{
+    color: rgba(0,0,0,.87);
+}
+
+header #sign-in{
+    width: 80px;
+    height: 36px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 15px;
+    margin: 0 8px;
+    color: white;
+}
+
+header #sign-in:hover{
+    text-decoration: none;
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);     
+}
+
+header #btn-app{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+header #btn-app:hover{
+   background-color: rgba(60,64,67,0.08);
+}
+
+header #btn-app svg{
+   fill: #5f6368;
+}
